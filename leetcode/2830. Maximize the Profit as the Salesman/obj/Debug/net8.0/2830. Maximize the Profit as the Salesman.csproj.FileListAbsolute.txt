@@ -1,0 +1,15 @@
+C:\Users\ilms9\OneDrive\바탕 화면\WorkSpace\Algorithm\leetcode\2830. Maximize the Profit as the Salesman\bin\Debug\net8.0\2830. Maximize the Profit as the Salesman.exe
+C:\Users\ilms9\OneDrive\바탕 화면\WorkSpace\Algorithm\leetcode\2830. Maximize the Profit as the Salesman\bin\Debug\net8.0\2830. Maximize the Profit as the Salesman.deps.json
+C:\Users\ilms9\OneDrive\바탕 화면\WorkSpace\Algorithm\leetcode\2830. Maximize the Profit as the Salesman\bin\Debug\net8.0\2830. Maximize the Profit as the Salesman.runtimeconfig.json
+C:\Users\ilms9\OneDrive\바탕 화면\WorkSpace\Algorithm\leetcode\2830. Maximize the Profit as the Salesman\bin\Debug\net8.0\2830. Maximize the Profit as the Salesman.dll
+C:\Users\ilms9\OneDrive\바탕 화면\WorkSpace\Algorithm\leetcode\2830. Maximize the Profit as the Salesman\bin\Debug\net8.0\2830. Maximize the Profit as the Salesman.pdb
+C:\Users\ilms9\OneDrive\바탕 화면\WorkSpace\Algorithm\leetcode\2830. Maximize the Profit as the Salesman\obj\Debug\net8.0\2830. Maximize the Profit as the Salesman.csproj.AssemblyReference.cache
+C:\Users\ilms9\OneDrive\바탕 화면\WorkSpace\Algorithm\leetcode\2830. Maximize the Profit as the Salesman\obj\Debug\net8.0\2830. Maximize the Profit as the Salesman.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ilms9\OneDrive\바탕 화면\WorkSpace\Algorithm\leetcode\2830. Maximize the Profit as the Salesman\obj\Debug\net8.0\2830. Maximize the Profit as the Salesman.AssemblyInfoInputs.cache
+C:\Users\ilms9\OneDrive\바탕 화면\WorkSpace\Algorithm\leetcode\2830. Maximize the Profit as the Salesman\obj\Debug\net8.0\2830. Maximize the Profit as the Salesman.AssemblyInfo.cs
+C:\Users\ilms9\OneDrive\바탕 화면\WorkSpace\Algorithm\leetcode\2830. Maximize the Profit as the Salesman\obj\Debug\net8.0\2830. Maximize the Profit as the Salesman.csproj.CoreCompileInputs.cache
+C:\Users\ilms9\OneDrive\바탕 화면\WorkSpace\Algorithm\leetcode\2830. Maximize the Profit as the Salesman\obj\Debug\net8.0\2830. Maximize the Profit as the Salesman.dll
+C:\Users\ilms9\OneDrive\바탕 화면\WorkSpace\Algorithm\leetcode\2830. Maximize the Profit as the Salesman\obj\Debug\net8.0\refint\2830. Maximize the Profit as the Salesman.dll
+C:\Users\ilms9\OneDrive\바탕 화면\WorkSpace\Algorithm\leetcode\2830. Maximize the Profit as the Salesman\obj\Debug\net8.0\2830. Maximize the Profit as the Salesman.pdb
+C:\Users\ilms9\OneDrive\바탕 화면\WorkSpace\Algorithm\leetcode\2830. Maximize the Profit as the Salesman\obj\Debug\net8.0\2830. Maximize the Profit as the Salesman.genruntimeconfig.cache
+C:\Users\ilms9\OneDrive\바탕 화면\WorkSpace\Algorithm\leetcode\2830. Maximize the Profit as the Salesman\obj\Debug\net8.0\ref\2830. Maximize the Profit as the Salesman.dll
