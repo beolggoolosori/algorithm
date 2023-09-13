@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ilms9\\OneDrive\\바탕 화면\\WorkSpace\\Algorithm\\leetcode\\2830. Maximize the Profit as the Salesman\\2830. Maximize the Profit as the Salesman.csproj": {}
+    "c:\\Users\\user\\Desktop\\WorkSpace\\studying-algorithm\\algorithm\\leetcode\\2830. Maximize the Profit as the Salesman\\2830. Maximize the Profit as the Salesman.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ilms9\\OneDrive\\바탕 화면\\WorkSpace\\Algorithm\\leetcode\\2830. Maximize the Profit as the Salesman\\2830. Maximize the Profit as the Salesman.csproj": {
+    "c:\\Users\\user\\Desktop\\WorkSpace\\studying-algorithm\\algorithm\\leetcode\\2830. Maximize the Profit as the Salesman\\2830. Maximize the Profit as the Salesman.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ilms9\\OneDrive\\바탕 화면\\WorkSpace\\Algorithm\\leetcode\\2830. Maximize the Profit as the Salesman\\2830. Maximize the Profit as the Salesman.csproj",
+        "projectUniqueName": "c:\\Users\\user\\Desktop\\WorkSpace\\studying-algorithm\\algorithm\\leetcode\\2830. Maximize the Profit as the Salesman\\2830. Maximize the Profit as the Salesman.csproj",
         "projectName": "2830. Maximize the Profit as the Salesman",
-        "projectPath": "C:\\Users\\ilms9\\OneDrive\\바탕 화면\\WorkSpace\\Algorithm\\leetcode\\2830. Maximize the Profit as the Salesman\\2830. Maximize the Profit as the Salesman.csproj",
-        "packagesPath": "C:\\Users\\ilms9\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ilms9\\OneDrive\\바탕 화면\\WorkSpace\\Algorithm\\leetcode\\2830. Maximize the Profit as the Salesman\\obj\\",
+        "projectPath": "c:\\Users\\user\\Desktop\\WorkSpace\\studying-algorithm\\algorithm\\leetcode\\2830. Maximize the Profit as the Salesman\\2830. Maximize the Profit as the Salesman.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\user\\Desktop\\WorkSpace\\studying-algorithm\\algorithm\\leetcode\\2830. Maximize the Profit as the Salesman\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ilms9\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
