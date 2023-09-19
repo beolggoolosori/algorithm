@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 namespace 문자열압축
 {
@@ -8,50 +9,67 @@ namespace 문자열압축
         {
             Program program = new Program();
 
-            Console.WriteLine("결과: " + program.solution("aabbaccc") + " // 예상결과 : 7");
-            Console.WriteLine("결과: " + program.solution("ababcdcdababcdcd") + " // 예상결과 : 9"); 
-            Console.WriteLine("결과: " + program.solution("abcabcdede") + " // 예상결과 : 8");
-            Console.WriteLine("결과: " + program.solution("abcabcabcabcdededededede") + " // 예상결과 : 14");
-            Console.WriteLine("결과: " + program.solution("xababcdcdababcdcd") + " // 예상결과 : 17"); 
+            string[] testCases = { "aabbaccc", "ababcdcdababcdcd", "abcabcdede", "abcabcabcabcdededededede", "xababcdcdababcdcd" };
+            int[] expectedResults = { 7, 9, 8, 14, 17 };
+
+            for (int i = 0; i < testCases.Length; i++)
+            {
+                long beforeMemory = GC.GetTotalMemory(true);
+
+                Stopwatch sw = new Stopwatch();
+                sw.Start();
+
+                int result = program.solution(testCases[i]);
+
+                sw.Stop();
+
+                long afterMemory = GC.GetTotalMemory(true);
+
+                Console.WriteLine($"Test Case {i + 1}:");
+                Console.WriteLine($"Input: \"{testCases[i]}\", Expected Result: {expectedResults[i]}, Actual Result: {result}");
+                Console.WriteLine($"Execution Time: {sw.Elapsed.TotalMilliseconds:0.0000} ms");
+                Console.WriteLine($"Memory Used: {afterMemory - beforeMemory} bytes");
+                Console.WriteLine("-----------------------------");
+            }
         }
 
         public int solution(string s)
         {
-            int answer = s.Length;
+            int minCompressedLength = s.Length;
 
-            for (int step = 1; step <= s.Length / 2; step++)
+            for (int sliceLength = 1; sliceLength <= s.Length / 2; sliceLength++)
             {
-                string compressed = "";
-                string prev = s.Substring(0, step);
+                string compressedString = "";
+                string previousSlice = s.Substring(0, sliceLength);
                 int count = 1;
 
-                for (int j = step; j < s.Length; j += step)
+                for (int j = sliceLength; j < s.Length; j += sliceLength)
                 {
-                    if (j + step > s.Length)
+                    if (j + sliceLength > s.Length)
                     {
-                        compressed += s.Substring(j);
+                        compressedString += s.Substring(j);
                         break;
                     }
 
-                    string sub = s.Substring(j, step);
+                    string currentSlice = s.Substring(j, sliceLength);
 
-                    if (prev == sub)
+                    if (previousSlice == currentSlice)
                     {
                         count++;
                     }
                     else
                     {
-                        compressed += (count > 1 ? count.ToString() : "") + prev;
-                        prev = sub;
+                        compressedString += (count > 1 ? count.ToString() : "") + previousSlice;
+                        previousSlice = currentSlice;
                         count = 1;
                     }
                 }
 
-                compressed += (count > 1 ? count.ToString() : "") + prev;
-                answer = Math.Min(answer, compressed.Length);
+                compressedString += (count > 1 ? count.ToString() : "") + previousSlice;
+                minCompressedLength = Math.Min(minCompressedLength, compressedString.Length);
             }
 
-            return answer;
+            return minCompressedLength;
         }
     }
 }
